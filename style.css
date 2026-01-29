@@ -134,3 +134,35 @@ a:not(.cta-link):hover {
   border-bottom: 1px solid var(--syntax-blue); /* Solid blue underline */
   background: none; /* Explicitly ensure no background color appears */
 }
+
+/* Styling for the numbered steps */
+.step-list {
+    margin-top: 10px;
+    padding-left: 1.5rem; /* Ensures numbers have space */
+    color: var(--text-color);
+}
+
+.step-list li {
+    margin-bottom: 10px; /* More space between steps for clarity */
+    line-height: 1.5;
+}
+
+/* Customizing the numbers to match your blue accent */
+.step-list li::marker {
+    color: var(--syntax-blue);
+    font-weight: bold;
+}
+
+/* A clean, muted label */
+.simple-label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ccc; /* Subtle contrast change */
+}
+
+/* Highlights the action without being overwhelming */
+.step-list li strong {
+    color: #fff; /* Keep actions white/bright for readability */
+    font-weight: 600;
+}
