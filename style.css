@@ -137,24 +137,12 @@ a:not(.cta-link):hover {
 
 /* Container for the overview */
 .drop-box {
-    border: 1px solid rgba(0, 229, 255, 0.2); /* Subtle blue border */
+    border: 1px solid rgba(0, 229, 255, 0.2);
     padding: 20px;
-    margin: 25px 0;
-    position: relative;
-    background: rgba(0, 0, 0, 0.2); /* Darken the background slightly */
+    margin: 10px 0 25px 0; /* Reduced top margin */
+    background: rgba(0, 0, 0, 0.2);
 }
 
-/* Header tab look */
-.box-header {
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    background: #000; /* Matches your body background */
-    padding: 0 10px;
-    color: var(--syntax-blue);
-    font-size: 0.7rem;
-    font-weight: bold;
-}
 
 .step-label {
     margin-top: 15px;
